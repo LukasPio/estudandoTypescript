@@ -4,7 +4,7 @@ var sun = {
     age: 4.603 * (Math.pow(10, 9)),
     planets: []
 };
-var MilkyWayPlanet = (function () {
+var MilkyWayPlanet = /** @class */ (function () {
     function MilkyWayPlanet(name, mass, population) {
         this.name = name;
         this.mass = mass;
@@ -15,7 +15,7 @@ var MilkyWayPlanet = (function () {
     };
     return MilkyWayPlanet;
 }());
-var BigAsteroid = (function () {
+var BigAsteroid = /** @class */ (function () {
     function BigAsteroid(name, mass, size) {
         this.name = name;
         this.mass = mass;
